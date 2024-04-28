@@ -1,97 +1,185 @@
-- title: General Information
+- title: Contact Information
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Satyam Bhawsinghka
+    - name: Email
+      value: bhawsinghka.satyam@gmail.com
+    - name: Phone
+      value: +1 (541) 250-7776
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Science, Robotics
+      institution: Oregon State University, Corvallis, OR, USA
+      year: Sep'21 - Dec'23
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - <b>CGPA:</b> 3.88/4
+        - <b>Coursework:</b> Kinematics, Dynamics and Control; Learning Based Control; Sequential Decision Making; Optimization in Design; Linear
+            Multivariable Control; Intro to Robotics I and II; Software Development for Engineering Research; Algorithms and Data Structures
+
+    - title: Bachelor of Technology, Mechanical Engineering
+      institution: Indian Institute of Technology (BHU) Varanasi, India
+      year: Jun'16 - Jun'20
+      description:
+        - <b>CGPA:</b> 9.23/10
+        - <b>Coursework:</b> Machine Design; Theory of Machines; Computer Programming; Computational Mechanics; Linear Control Systems; Control Systems
+          Engineering; Finite Element Method; Optimization for Engineering Design; Manufacturing Technology
+
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Graduate Research Assistant
+      institution: Oregon State University, Corvallis, OR, USA
+      year: Apr'22 - Dec'23
+      description:
+        - Fabricated and characterized <b>hydraulically activated silicone knuckles</b> which act as <b>variable stiffness joints (VSJ)</b>.
+        - Development of <b>compliant underwater gripper</b> using hydraulically activated knuckles as VSJ.
+        - Developed the <b>pressure control system</b> using <b>Arduino</b> and gripper mechanism using <b>DynamixelSDK</b> and integrated the controls with a user
+          interface on <b>ROS</b>.
+        - Increased <b>grasp strength of a tendon driven gripper by 7%</b> along with performing <b>multiple grasp primitives</b> by modulating joint stiffness
+          alone.
+        - Developed a multi link chain tendon driven planar mechanism for trajectory generation with silicone VSJ knuckles.
+        - Expanded capabilities of hydraulic knuckles for proprioception with <b>90% state estimation accuracy</b>.
+
+    - title: Associate Data Scientist
+      institution: Optum, UnitedHealth Group, Gurgaon, India
+      year: Aug'20 - Aug'21
+      description:
+        - title: Development of Classification Model
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+            - Developed an XGBoost classification predictive model with an <b>accuracy of 84%</b> and <b>lift of 5X</b> in the first decile for potential annual saving of <b>US$ 0.2 billion</b>.
+            - Optimized the model performance by tuning hyper-parameters and deployed automatic scheduling of the process.
+            - Collaborated with the marketing stakeholders to work on test design of the campaign <b>(A/B Testing)</b>.
+        - title: Sandbox Migration
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Transitioned legacy processes previously executed on SAS to in-house Big Data Platform using HQL.
+            - Automated multiple processes eliminating manual intervention from various teams.
+
+    - title: Summer Research Intern
+      institution: Nanyang Technological University, Singapore
+      year: May'19 - Jul'19
       description:
-        - Description 1.
-        - Description 2.
+        - Formulated a platform that uses loop closure techniques and RTABMap standalone libraries to combine stereo images from a real
+          environment to plot a navigable virtual 3D environment using DEM.
+        - Tested object classification algorithm had an <b>accuracy of 92%</b> in the virtual environment.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Research Intern
+      institution: Indian Institute of Technology Guwahati, India
+      year: May'18 - Jul'18
       description:
+        - Development of Motorized Exoskeleton System for transition between two modes (wheelchair and exoskeleton) for rehabilitation of people
+          with paraplegia.
+        - Simulated the system on exoskeleton mode using <b>Simulink</b> for different design parameters to find the required actuator torques while
+          <b>reducing total cost by 68% and weight by 54%</b> by using same actuators for both modes.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/SatyamBhawsinghka/SDM-Project">MCTS Energy Optimal Trajectory for Variable Joint Stiffness Underactuated Finger</a>
+      year: Jan'23 - Mar'23
+      description:
+        - Development of Monte Carlo Path Planning framework to generate control sequences for reaching any desired joint configuration for tendon
+          driven gripper with pressure controlled knuckles as variable stiffness joints under <b>transition uncertainty</b> while expanding <b>minimum energy</b>.
+        - Compared the effects of various design parameters and extend of transition uncertainty on algorithm performance.
+        - Able to generate optimal cost paths for even <b>10% transition uncertainty</b>.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: <a href="https://github.com/SatyamBhawsinghka/KDC-Project">A* Optimal Path for Variable Joint Stiffness in an Underactuated System</a>
+      year: Apr'22 - Jun'22
+      description:
+        - Developed a framework for generating joint stiffness sequences for variable joint stiffness finger to reach any desired joint configuration
+          using A* search algorithm.
+        - Generated optimal paths for pinch and wrap grasp primitives.
 
-- title: Academic Interests
+    - title: <a href="https://github.com/SatyamBhawsinghka/deformeasure">Development of a software package for measuring deformation (<i>deformeasure</i>)</a>
+      year: Jan'22 - Mar'22
+      description:
+        - Development of a software package to measure deformation from images or frames from videos using Digital Image Correlation (DIC).
+
+    - title: <a href="https://github.com/SatyamBhawsinghka/braille_generator">Development of Autonomous System for Generating Braille</a>
+      year: Jan'22 - Mar'22
+      description:
+        - Generating braille from text files using a custom built end-effector on a <b>Hiwonder xArm</b>.
+
+    - title: <a href="https://github.com/SatyamBhawsinghka/LBC_Project">Neural Network Based Chatter Detection and Control on CNC Milling Machine</a>
+      year: Sep'21 - Nov'21
+      description:
+        - Developed a framework for detecting chatter using force data. Able to detect chatter with <b>95% accuracy 0.4</b> sec before the occurrence of
+          chatter.
+        - On detection of chatter, the operating frequency is changed to protect workpiece quality.
+
+    - title: <a href="">Development of Origami Inspired Variable Diameter Wheel Robot</a>
+      year: Jan'19 - Dec'19
+      description:
+        - Design and development of STeVe( Smart Terrain Vehicle) viz. a wheeled mobile robot capable of maneuvering over various terrains with
+          increased mobility by dynamically adjusting wheel diameter.
+        - Designed and developed mechanical system for actuation to dynamically change wheel diameter and control system which gives
+          characteristic features of obstacle clearance, tunneling through narrow gaps and balancing.
+
+    - title: Increasing the efficiency of Solar Panel by using dual axis Solar Tracker
+      year: Aug'17 - Dec'17
+      description:
+        - Constructed a 2-DOF light tracker controlled via an electronic circuit consisting of LDR and H-Bridge circuit increasing energy output by
+          <b>72%</b> under controlled environments.
+
+- title: Publications
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title:
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - <a href="https://ieeexplore.ieee.org/document/10121932">Bhawsinghka, S., Troxler, N., Walker, S., & Davidson, J. R. (2023, April). Hydraulic Modulation of Silicone Knuckles for Variable Control of Joint
+          Stiffness. In 2023 IEEE International Conference on Soft Robotics (RoboSoft) (pp. 1-6). IEEE.</a>
+        - <a href="https://www.researchgate.net/publication/332704072_Experimental_Investigation_and_Dynamic_Analysis_of_a_Lower_Limb_Exoskeleton_System">Narayan, J., M. Dowarah, S. K. Dwivedy and S. Bhawsinghka, “Experimental Investigation and Dynamic Analysis of a Lower Limb Exoskeleton
+          System”, Proceedings of 2nd International Conference on Advances in Robotics, Automation and Sensing, 15-16 December, 2018 at PSG
+          College of Technology, Coimbatore, India (Presented, December 2018)</a>
 
-- title: Other Interests
-  type: list
+
+- title: Skills
+  type: nested_list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title:
+      items:
+        - <b>Programming Languages:</b> Python, Java, C, MATLAB, SQL, Octave
+        - <b>Hardware:</b> Raspberry Pi, Arduino, Dynamixel
+        - <b>Technology:</b> IoT, SolidWorks, ROS, Git, Docker, LATEX, Apache Hive, KiCad
+        - <b>Others:</b> Gazebo, RViz, Simulink, PyBullet, SOFA, Ansys
+
+
+
+- title: Accomplishments
+  type: nested_list
+  contents:
+    - title:
+      items:
+        - 2020 CR Performance Award (UHG) (Dec’20)
+        - 2020 Performance Award (UHG)(Dec’20)
+        - Selected for NTU-India Connect Research Internship Programme 2019
+        - Top 0.1% in Joint Entrance Examination (JEE) Advanced 2016
+
+- title: Additional Work Experience
+  type: time_table
+  contents:
+    - title: Member, Working Committee
+      institution: Mechanical Engineering Society
+      year: Aug'17 - Apr'18
+      description: Organized industrial visits for Mechanical Engineering Department students to Hindalco Renukoot plant and DLW, Varanasi resulting in 6
+                   students securing job offers.
+
+    - title: Convener
+      institution: Conference on Mechanical Engineering and Technology (COMET’18)
+      year: Jan'17 - Apr'18
+      description: Organized tech talks by world renowned researchers, roping in sponsorship from local institutions. As part of the PR team, promoted the
+                   conference through Campus Ambassador Program and CDQ (aptitude test) increasing college engagement by 32% and footfall by 57%
+                   from previous year.
+
+- title: Additional Courses
+  type: nested_list
+  contents:
+    - title:
+      items:
+        - Specialization in Modern Robotics (Audit), Northwestern University
+        - Machine Learning, Stanford University
+        - Specialization in Internet of Things, University of California, Irvine
+        - Introduction to Programming with MATLAB, Vanderbilt University
+        - Materials Science:</ 10 Things Every Engineer Should Know, University of California, Davis
