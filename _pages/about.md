@@ -22,6 +22,10 @@ and adaptability in robotic manipulation tasks using soft robotics under the sup
 [Dr. Joseph Davidson](https://engineering.oregonstate.edu/people/joseph-davidson/)
 while being a part of [Intelligent Machine and Materials Lab](https://research.engr.oregonstate.edu/davidsonjr/).
 
+Currently, I'm working at [ViaBot](https://www.viabot.com/) as a robotics testing intern where I develop automated 
+testing procedures for submodules of RUNO: A modular sweeping and security robot platform 
+including hardware components (like PCs, sensors, actuator mechanisms) and robot software for reliable on-field deployment. 
+
 Previously, I have worked for Optum, UnitedHealth Group as an associate data scientist 
 in the consumer analytics team developing targeted campaigns for customer retention in the 
 healthcare industry using data driven solutions. 
