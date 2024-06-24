@@ -150,7 +150,7 @@
       items:
         - <b>Programming Languages:</b> Python, Java, C, C++, MATLAB, SQL, Octave
         - <b>Hardware:</b> Raspberry Pi, Arduino, Teensy,  Dynamixel, VESC, F9P RTK GPS, NAV3 IMU, LiDAR, Intel RealSense
-        - <b>Technology:</b> IoT, SolidWorks, ROS, Git, Docker, \LaTeX, Apache Hive, KiCad, u-center, VESC Tool, Bitbucket, Jira, monday.com, Formant
+        - <b>Technology:</b> IoT, SolidWorks, ROS, Git, Docker, LaTeX, Apache Hive, KiCad, u-center, VESC Tool, Bitbucket, Jira, monday.com, Formant
         - <b>Others:</b> Gazebo, RViz, Simulink, PyBullet, OpenCV, SOFA, Ansys, Electromechanical System Design
 
 
